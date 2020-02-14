@@ -8,7 +8,7 @@ mybatis:
   - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
     
 spring:
-   profiles: test
+   profiles: dev
    application:
     name: springcloud-provider-dept
    datasource:
