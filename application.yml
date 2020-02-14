@@ -4,9 +4,9 @@ spring:
     - dev
 ---
 spring:
- profiles: dev #开发环境
- application:
-   name: springcloud-config-lb-dev
+  profiles: dev #开发环境
+  application:
+    name: springcloud-config-lb-dev
 ---
 spring:
   profiles: test #测试环境
